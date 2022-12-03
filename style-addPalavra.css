@@ -1,0 +1,83 @@
+body{
+    background-color: #F3F5FC;
+}
+
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#bloco{
+    display: block;
+    width: 100%;
+    height: 6em;
+
+}
+#boxTexto{
+    width: 100%;
+    text-align: center;
+}
+
+#textoentrada{
+
+    width: 530px;
+    height: 165px;
+
+    /*text-align: center;*/
+    background-color: transparent;
+
+    border-width: 2px;
+    border-color: #002462;
+    
+    
+    /*border-color: transparent;*/
+    border-radius: 12px;
+    
+
+    resize: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+
+    color: #0A3871;
+
+
+
+}
+textarea#textoentrada::placeholder{
+    color: #0A3871;
+    font-weight: bold;
+}
+textarea#textoentrada:focus{
+    outline: none;
+    font-weight: bold;
+}
+
+#botao{
+    width: 100%;
+    height: 5em;
+    text-align: center;
+
+    /*===============*/
+
+} 
+.btn-azul{
+    width:15rem ;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid 2px #F3F5FC;
+    background-color: #002462;
+    color: #ffffff;
+    cursor: pointer; /*-- mostrar a 'mao' ao passar o mouse em cima---*/
+}
+.btn-branco{
+    width:15rem ;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid 2px #002462;
+    background-color: #F3F5FC;
+    color: #002462;
+    cursor: pointer; /*-- mostrar a 'mao' ao passar o mouse em cima---*/
+}

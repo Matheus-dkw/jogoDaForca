@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sprint-2</title>
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style-addPalavra.css">
+</head>
+<body>
+    <header>
+        <img src="Logo.png" alt="logo-alura" id="logo">
+    </header>
+    <div class="formulario">
+
+        <div id="bloco"></div>
+        
+        <div id="boxTexto">
+
+            <textarea name="msg" id="textoentrada" cols="30" rows="10" autofocus
+                placeholder="Adicione uma palavra..."></textarea>
+
+        </div>
+
+        <div id="botao">
+
+            <input class="btn-azul" type="button" value="Salvar Palavra" onclick="salvarPalavra()">
+            <input class="btn-branco" type="button" value="Voltar" onclick="voltarParaHome()">
+        </div>
+
+
+        <script src="jogo.js"></script>

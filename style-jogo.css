@@ -1,0 +1,98 @@
+body{
+    background-color: #F3F5FC;
+    margin: 0;
+    text-transform: uppercase;
+}
+html{
+    font-size: 16px;
+}
+
+#boneco{
+    max-width: 100%;
+    max-height: 100%;
+    display:inline-block
+}
+
+
+
+.boneco-enforcado{
+    width: 100vw; /* estudar essas medidas de altura */
+    text-align: center;
+    height: 40vh;
+    
+    /*max-width:16.75rem;*/
+    max-height: 16.75rem;/* é o resultado da divisão da altura em px por "16" ( px/16 = altura em 'rem' */
+
+    /*background-color: white;*/
+
+    margin-top: 4rem; /* "rem" - tamanho relativo a fonte escolhida no html, no caso '16px' */
+    margin-bottom: 2rem;
+}
+
+#adivinhado{
+    text-align: center;
+    color: #002462;
+    font-size: 1.8rem;
+
+}
+
+.letra{
+    display: inline-block;
+    vertical-align: middle; /* colocar os elementos no meio */
+    text-align: center;
+}
+
+.adivinhada{
+    
+    width: 4.5rem;
+    height: 4.5rem;
+    border-bottom: solid 3px #002462;
+    margin: 0.4rem ;
+    line-height: 4.5rem;
+
+}
+#letra-adivinhada{
+    
+    width: 4.5rem;
+    height: 4.5rem;
+    border-bottom: solid 3px #002462;
+    margin: left 0.4rem ;
+    line-height: 4.5rem;
+    
+
+}
+
+
+#errado{
+    text-align: center;
+    margin-top: 1rem;
+    color: #242d34;
+    margin-left: 1rem;
+}
+
+.errada{
+    margin-left: 1rem;
+}
+
+
+[type="button"]{
+
+     width:15rem ;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid 1px #002462;
+    color: #002462;
+    cursor: pointer; /*-- mostrar a 'mao' ao passar o mouse em cima---*/
+}
+
+
+.botoes{
+   text-align: center;
+   margin-top: 3rem;
+
+}
+.btn-azul{
+    background-color: #002462;
+    color: white;
+    border-color: black;
+}
